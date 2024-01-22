@@ -42,8 +42,16 @@ $(document).on("mouseover",function(){
     $("h1").css("color", "red")
 })
 
+
+
 //creating buttons using jquery
 $("h1").before("<button>New Btn</button>")
 $("h1").after("<button>New Btn</button>")
+
+//this append adds the button before the content i.e h1
 $("h1").prepend("<button>New Btn</button>")
+//this append adds the button after the content i.e h1
 $("h1").append("<button>New Btn</button>")
+
+//removing every buttons from our webpages
+$("button").remove();
