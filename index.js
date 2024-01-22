@@ -41,3 +41,9 @@ had access to by using Javascript.  */
 $(document).on("mouseover",function(){
     $("h1").css("color", "red")
 })
+
+//creating buttons using jquery
+$("h1").before("<button>New Btn</button>")
+$("h1").after("<button>New Btn</button>")
+$("h1").prepend("<button>New Btn</button>")
+$("h1").append("<button>New Btn</button>")
