@@ -114,7 +114,7 @@ down, and after it slid down I want to change the CSS to have an opacity of 0.5,
 so 50 percent. So essentially what we've done here is chained three methods together
  so that we target our h1 and first get it to slide up, then slide down, then animate. 
  Now remember that if this is all targeting the same thing it can't slide up and slide 
- down at the same time. So it will do it in order. */
+ down at the same time. So it will do it in order.... */
 
 $("button").on("click", function(){
     $("h1").slideUp().slideDown().animate({opacity:0.5});
