@@ -98,7 +98,7 @@ So you have to stick to things that have a numeric value.
 For example a margin of 20 pixels, that it can do. Or if you wanted to make it a 
 percentage, then you can include it as a string. So 20 percent margin which makes 
 it much bigger. But essentially make sure that this second value in the CSS that 
-you're trying to animate to is a number value.
+you're trying to animate to is a number value......
  */
 
 
